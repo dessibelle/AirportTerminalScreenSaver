@@ -1,0 +1,271 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4D2DA481CB5074500F9043E /* Airport_TerminalView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D2DA471CB5074500F9043E /* Airport_TerminalView.h */; };
+		F4D2DA4A1CB5074500F9043E /* Airport_TerminalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D2DA491CB5074500F9043E /* Airport_TerminalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F4D2DA441CB5074500F9043E /* Airport Terminal.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airport Terminal.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D2DA471CB5074500F9043E /* Airport_TerminalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Airport_TerminalView.h; sourceTree = "<group>"; };
+		F4D2DA491CB5074500F9043E /* Airport_TerminalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airport_TerminalView.m; sourceTree = "<group>"; };
+		F4D2DA4B1CB5074500F9043E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4D2DA401CB5074500F9043E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4D2DA3A1CB5074500F9043E = {
+			isa = PBXGroup;
+			children = (
+				F4D2DA461CB5074500F9043E /* Airport Terminal */,
+				F4D2DA451CB5074500F9043E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4D2DA451CB5074500F9043E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2DA441CB5074500F9043E /* Airport Terminal.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4D2DA461CB5074500F9043E /* Airport Terminal */ = {
+			isa = PBXGroup;
+			children = (
+				F4D2DA471CB5074500F9043E /* Airport_TerminalView.h */,
+				F4D2DA491CB5074500F9043E /* Airport_TerminalView.m */,
+				F4D2DA4B1CB5074500F9043E /* Info.plist */,
+			);
+			path = "Airport Terminal";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4D2DA411CB5074500F9043E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2DA481CB5074500F9043E /* Airport_TerminalView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4D2DA431CB5074500F9043E /* Airport Terminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4D2DA4E1CB5074500F9043E /* Build configuration list for PBXNativeTarget "Airport Terminal" */;
+			buildPhases = (
+				F4D2DA3F1CB5074500F9043E /* Sources */,
+				F4D2DA401CB5074500F9043E /* Frameworks */,
+				F4D2DA411CB5074500F9043E /* Headers */,
+				F4D2DA421CB5074500F9043E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Airport Terminal";
+			productName = "Airport Terminal";
+			productReference = F4D2DA441CB5074500F9043E /* Airport Terminal.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4D2DA3B1CB5074500F9043E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Simon Fransson";
+				TargetAttributes = {
+					F4D2DA431CB5074500F9043E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = F4D2DA3E1CB5074500F9043E /* Build configuration list for PBXProject "Airport Terminal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4D2DA3A1CB5074500F9043E;
+			productRefGroup = F4D2DA451CB5074500F9043E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4D2DA431CB5074500F9043E /* Airport Terminal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D2DA421CB5074500F9043E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4D2DA3F1CB5074500F9043E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4D2DA4A1CB5074500F9043E /* Airport_TerminalView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F4D2DA4C1CB5074500F9043E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4D2DA4D1CB5074500F9043E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4D2DA4F1CB5074500F9043E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Airport Terminal/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.dessibelle.Airport-Terminal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		F4D2DA501CB5074500F9043E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Airport Terminal/Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.dessibelle.Airport-Terminal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4D2DA3E1CB5074500F9043E /* Build configuration list for PBXProject "Airport Terminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D2DA4C1CB5074500F9043E /* Debug */,
+				F4D2DA4D1CB5074500F9043E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4D2DA4E1CB5074500F9043E /* Build configuration list for PBXNativeTarget "Airport Terminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4D2DA4F1CB5074500F9043E /* Debug */,
+				F4D2DA501CB5074500F9043E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4D2DA3B1CB5074500F9043E /* Project object */;
+}
