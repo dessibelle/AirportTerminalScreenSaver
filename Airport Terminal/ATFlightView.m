@@ -33,7 +33,7 @@
         
         self.color = [NSColor yellowColor];
         self.font = [NSFont fontWithName:@"AdvancedLEDBoard-7" size:self.frame.size.height * 0.8];
-        self.statusFont = [NSFont fontWithName:@"AdvancedLEDBoard-7" size:self.frame.size.height * 0.4];
+//        self.statusFont = [NSFont fontWithName:@"AdvancedLEDBoard-7" size:self.frame.size.height * 0.4];
     }
     return self;
 }
@@ -71,10 +71,10 @@
 }
 
 - (void)setValues:(NSDictionary *)values {
-    NSDictionary *statusAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                      self.statusFont, NSFontAttributeName,
+//    NSDictionary *statusAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+//                                      self.statusFont, NSFontAttributeName,
 //                                      [NSNumber numberWithFloat:0.0], NSBaselineOffsetAttributeName,
-                                      nil];
+//                                      nil];
     
     self.time.attributedStringValue = [self attributedString:[values objectForKey:@"time"] overridingAttributes:nil];
     self.destination.attributedStringValue = [self attributedString:[values objectForKey:@"destination"] overridingAttributes:nil];

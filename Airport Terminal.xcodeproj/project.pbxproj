@@ -12,6 +12,7 @@
 		F410B7531CC01D9000B663BE /* ATFlightView.h in Headers */ = {isa = PBXBuildFile; fileRef = F410B7511CC01D9000B663BE /* ATFlightView.h */; };
 		F410B7541CC01D9000B663BE /* ATFlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = F410B7521CC01D9000B663BE /* ATFlightView.m */; };
 		F4660AB51CC4120A00175588 /* advanced_led_board-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4660AAB1CC4120A00175588 /* advanced_led_board-7.ttf */; };
+		F4854C291CCA237A00F290BB /* Airport Terminal.saver in Copy Files */ = {isa = PBXBuildFile; fileRef = F4D2DA441CB5074500F9043E /* Airport Terminal.saver */; };
 		F4D2DA481CB5074500F9043E /* Airport_TerminalView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D2DA471CB5074500F9043E /* Airport_TerminalView.h */; };
 		F4D2DA4A1CB5074500F9043E /* Airport_TerminalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D2DA491CB5074500F9043E /* Airport_TerminalView.m */; };
 		F4D2DA531CBE9E3900F9043E /* ATFlight.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D2DA511CBE9E3900F9043E /* ATFlight.h */; };
@@ -29,6 +30,7 @@
 			dstPath = "/Users/simon/Library/Screen Savers";
 			dstSubfolderSpec = 0;
 			files = (
+				F4854C291CCA237A00F290BB /* Airport Terminal.saver in Copy Files */,
 			);
 			name = "Copy Files";
 			runOnlyForDeploymentPostprocessing = 0;

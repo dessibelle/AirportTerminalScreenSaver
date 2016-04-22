@@ -112,11 +112,11 @@
 }
 
 - (char)randomChar {
-    return 'A' + arc4random() % 25;
+    return arc4random_uniform(25) + 'A';
 }
 
 - (NSString *)randomFlightId {
-    NSUInteger flightNum = 100 + arc4random() % (999 - 100);
+    NSUInteger flightNum = arc4random_uniform(899) + 100;
     return [NSString stringWithFormat:@"%c%c%lu", [self randomChar], [self randomChar], (unsigned long)flightNum];
 }
 
