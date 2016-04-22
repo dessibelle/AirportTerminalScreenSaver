@@ -8,6 +8,13 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
+@class ATFlightQueue, ATFlightQueueController, ATFlightQueueView;
+
 @interface Airport_TerminalView : ScreenSaverView
+
+@property (strong) ATFlightQueue *queue;
+@property (strong) ATFlightQueueController *queueController;
+@property (strong) ATFlightQueueView *flightQueueView;
+@property (strong) NSText *headingView;
 
 @end
