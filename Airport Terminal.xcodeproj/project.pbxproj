@@ -12,7 +12,8 @@
 		F410B7531CC01D9000B663BE /* ATFlightView.h in Headers */ = {isa = PBXBuildFile; fileRef = F410B7511CC01D9000B663BE /* ATFlightView.h */; };
 		F410B7541CC01D9000B663BE /* ATFlightView.m in Sources */ = {isa = PBXBuildFile; fileRef = F410B7521CC01D9000B663BE /* ATFlightView.m */; };
 		F4660AB51CC4120A00175588 /* advanced_led_board-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4660AAB1CC4120A00175588 /* advanced_led_board-7.ttf */; };
-		F4854C291CCA237A00F290BB /* Airport Terminal.saver in Copy Files */ = {isa = PBXBuildFile; fileRef = F4D2DA441CB5074500F9043E /* Airport Terminal.saver */; };
+		F4A8DEAF1DE9CE7E00303C4F /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A8DEAC1DE9CE7E00303C4F /* thumbnail.png */; };
+		F4A8DEB01DE9CE7E00303C4F /* thumbnail@2px.png in Resources */ = {isa = PBXBuildFile; fileRef = F4A8DEAD1DE9CE7E00303C4F /* thumbnail@2px.png */; };
 		F4D2DA481CB5074500F9043E /* Airport_TerminalView.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D2DA471CB5074500F9043E /* Airport_TerminalView.h */; };
 		F4D2DA4A1CB5074500F9043E /* Airport_TerminalView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D2DA491CB5074500F9043E /* Airport_TerminalView.m */; };
 		F4D2DA531CBE9E3900F9043E /* ATFlight.h in Headers */ = {isa = PBXBuildFile; fileRef = F4D2DA511CBE9E3900F9043E /* ATFlight.h */; };
@@ -23,26 +24,14 @@
 		F4D2DA5D1CBEE6BC00F9043E /* ATFlightQueueController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D2DA5B1CBEE6BC00F9043E /* ATFlightQueueController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F410B74B1CC007C600B663BE /* Copy Files */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 12;
-			dstPath = "/Users/simon/Library/Screen Savers";
-			dstSubfolderSpec = 0;
-			files = (
-				F4854C291CCA237A00F290BB /* Airport Terminal.saver in Copy Files */,
-			);
-			name = "Copy Files";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		F410B74D1CC01CEF00B663BE /* ATFlightQueueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFlightQueueView.h; sourceTree = "<group>"; };
 		F410B74E1CC01CEF00B663BE /* ATFlightQueueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFlightQueueView.m; sourceTree = "<group>"; };
 		F410B7511CC01D9000B663BE /* ATFlightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATFlightView.h; sourceTree = "<group>"; };
 		F410B7521CC01D9000B663BE /* ATFlightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATFlightView.m; sourceTree = "<group>"; };
 		F4660AAB1CC4120A00175588 /* advanced_led_board-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "advanced_led_board-7.ttf"; sourceTree = "<group>"; };
+		F4A8DEAC1DE9CE7E00303C4F /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		F4A8DEAD1DE9CE7E00303C4F /* thumbnail@2px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2px.png"; sourceTree = "<group>"; };
 		F4D2DA441CB5074500F9043E /* Airport Terminal.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Airport Terminal.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D2DA471CB5074500F9043E /* Airport_TerminalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Airport_TerminalView.h; sourceTree = "<group>"; };
 		F4D2DA491CB5074500F9043E /* Airport_TerminalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airport_TerminalView.m; sourceTree = "<group>"; };
@@ -70,6 +59,8 @@
 		F4660AA91CC4120A00175588 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F4A8DEAC1DE9CE7E00303C4F /* thumbnail.png */,
+				F4A8DEAD1DE9CE7E00303C4F /* thumbnail@2px.png */,
 				F4660AAB1CC4120A00175588 /* advanced_led_board-7.ttf */,
 			);
 			path = Resources;
@@ -140,7 +131,6 @@
 				F4D2DA401CB5074500F9043E /* Frameworks */,
 				F4D2DA411CB5074500F9043E /* Headers */,
 				F4D2DA421CB5074500F9043E /* Resources */,
-				F410B74B1CC007C600B663BE /* Copy Files */,
 			);
 			buildRules = (
 			);
@@ -188,6 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4660AB51CC4120A00175588 /* advanced_led_board-7.ttf in Resources */,
+				F4A8DEB01DE9CE7E00303C4F /* thumbnail@2px.png in Resources */,
+				F4A8DEAF1DE9CE7E00303C4F /* thumbnail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
