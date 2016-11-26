@@ -57,7 +57,6 @@
 
 - (void)startAnimation
 {
-    NSLog(@"deps: %@", self.queue.departures);
     [self.queueController start];
     [self.queue addObserver:self
                  forKeyPath:@"departures"
@@ -82,7 +81,6 @@
 
 - (void)animateOneFrame
 {
-//    NSLog(@"Queue: %@", self.queue);
     return;
 }
 
@@ -91,7 +89,7 @@
     return NO;
 }
 
-- (NSWindow*)configureSheet
+- (NSWindow *)configureSheet
 {
     return nil;
 }
@@ -122,14 +120,11 @@
 
     CFErrorRef error;
     
-    NSURL *fontURL = [[[[NSBundle bundleWithIdentifier:bundleIdentifier] resourceURL]URLByAppendingPathComponent:@"advanced_led_board-7"] URLByAppendingPathExtension:@"ttf"];
-    BOOL fontActivated = CTFontManagerRegisterFontsForURL((CFURLRef)fontURL, kCTFontManagerScopeProcess, &error);
+    NSURL *fontURL = [[[[NSBundle bundleWithIdentifier:bundleIdentifier] resourceURL] URLByAppendingPathComponent:@"advanced_led_board-7"] URLByAppendingPathExtension:@"ttf"];
     
-    if (fontActivated)
-        NSLog(@"Font at path %@\n   failed to activate with errors: %@", fontURL, error);
-    
-    if (error)
-        CFRelease(error);
+    if (!CTFontManagerRegisterFontsForURL((__bridge CFURLRef)fontURL, kCTFontManagerScopeProcess, &error)) {
+        CFShow(error);
+    }
 }
 
 @end
