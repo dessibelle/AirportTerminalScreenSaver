@@ -15,6 +15,6 @@
 @property (strong) ATFlightQueue *queue;
 @property (strong) ATFlightQueueController *queueController;
 @property (strong) ATFlightQueueView *flightQueueView;
-@property (strong) NSText *headingView;
+@property (strong) NSTextView *headingView;
 
 @end

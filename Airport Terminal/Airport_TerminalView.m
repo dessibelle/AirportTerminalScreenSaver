@@ -38,11 +38,12 @@
                                          self.frame.size.width,
                                          headingHeight);
         
-        self.headingView = [[NSText alloc] initWithFrame:headingFrame];
+        self.headingView = [[NSTextView alloc] initWithFrame:headingFrame];
         self.headingView.textColor = [NSColor whiteColor];
         self.headingView.backgroundColor = [NSColor clearColor];
         self.headingView.font = [NSFont boldSystemFontOfSize:0.8 * headingHeight];
         self.headingView.string = @"DEPARTURES";
+        self.headingView.editable = NO;
         self.headingView.alignment = NSCenterTextAlignment;
         [self addSubview:self.headingView];
         
